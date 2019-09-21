@@ -263,6 +263,8 @@
     self.datePicker.minuteInterval = minuteInterval;
   }
 
+  [self.datePicker setValue:[UIColor blackColor] forKey:@"textColor"];
+ 
   if (locale) {
     [self.datePicker setLocale:locale];
   }
